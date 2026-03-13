@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="/my-portfolio/assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 
 <body>
@@ -58,8 +58,7 @@
       </div>
       <div class="hero-right">
         <div class="profile-image-container">
-          <img src="/my-portfolio/assets/styles/images/Just a little cat.jpeg" alt="Grace Joy" class="profile-image"
-            onerror="this.src='./my-portfolio/assets/styles/images/just a little cat.jpeg'">
+          <img src="assets/styles/images/Just a little cat.jpeg" alt="Grace Joy" class="profile-image">
           <div class="profile-frame"></div>
         </div>
       </div>
@@ -88,7 +87,7 @@
         </p>
       </div>
       <div class="profile-image-container">
-        <img src="../assets/styles/images/workspace.jpeg" alt="My workspace" class="profile-image"
+        <img src="assets/styles/images/workspace.jpeg" alt="My workspace" class="profile-image"
           onerror="this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=400&fit=crop'">
         <div class="profile-frame"></div>
       </div>
@@ -145,7 +144,7 @@
 
         <!-- Project 1 -->
         <div class="project-card">
-          <img src="../my-portfolio/assets/styles/images/botshealth.jpeg" alt="Bots Health" class="project-image">
+          <img src="assets/styles/images/botshealth.jpeg" alt="Bots Health" class="project-image">
           <div class="project-content">
             <h3 class="project-title">Bots Health</h3>
             <p class="project-description">A live bot health tracker dashboard for monitoring bot performance metrics
@@ -160,7 +159,7 @@
 
         <!-- Project 2 -->
         <div class="project-card">
-          <img src="../my-portfolio/assets/styles/images/myapp.jpeg" alt="My App" class="project-image">
+          <img src="assets/styles/images/myapp.jpeg" alt="My App" class="project-image">
           <div class="project-content">
             <h3 class="project-title">SecureBank</h3>
             <p class="project-description">Interactive banking interface featuring transaction history, balance flow
@@ -175,7 +174,7 @@
 
         <!-- Project 3 -->
         <div class="project-card">
-          <img src="../my-portfolio/assets/styles/images/foodapp.jpeg" alt="Group4 Food" class="project-image">
+          <img src="assets/styles/images/foodapp.jpeg" alt="Group4 Food" class="project-image">
           <div class="project-content">
             <h3 class="project-title">Food App</h3>
             <p class="project-description">Food app built with cart management and responsive mobile-first design React,
@@ -190,7 +189,7 @@
 
         <!-- Project 4 -->
         <div class="project-card">
-          <img src="../my-portfolio/assets/styles/images/retroo.jpg" alt="RetroO" class="project-image">
+          <img src="assets/styles/images/retroo.jpg" alt="RetroO" class="project-image">
           <div class="project-content">
             <h3 class="project-title">RetroO</h3>
             <p class="project-description">A retro motorsport-application built with Dart and JavaScript.</p>
@@ -244,7 +243,6 @@
         I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my
         best to get back to you!
       </p>
-      <!-- Formspree Form - Replace YOUR_FORM_ID with your actual Formspree form ID -->
       <form class="contact-form" id="contact-form" action="https://formspree.io/f/xgonzvgq" method="POST">
         <div class="form-group">
           <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -259,10 +257,7 @@
           <textarea name="message" class="form-control" placeholder="Tell me about your project or opportunity..."
             rows="5" required></textarea>
         </div>
-        <!-- Optional: Add a redirect after submission -->
         <input type="hidden" name="_next" value="https://yourportfolio.com/thanks.html">
-        <!-- Optional: Disable captcha if you want (not recommended for production) -->
-        <!-- <input type="hidden" name="_captcha" value="false"> -->
         <button type="submit" class="submit-btn">Send Message</button>
       </form>
     </div>
